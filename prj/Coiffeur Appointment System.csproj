@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdminMain.aspx" />
+    <Content Include="adminProcedurePage.aspx" />
     <Content Include="AdminStaffs.aspx" />
     <Content Include="AppointmentPage.aspx" />
     <Content Include="CantactPage.aspx" />
@@ -97,6 +98,13 @@
     </Compile>
     <Compile Include="AdminMain.aspx.designer.cs">
       <DependentUpon>AdminMain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminProcedurePage.aspx.cs">
+      <DependentUpon>adminProcedurePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminProcedurePage.aspx.designer.cs">
+      <DependentUpon>adminProcedurePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminStaffs.aspx.cs">
       <DependentUpon>AdminStaffs.aspx</DependentUpon>
