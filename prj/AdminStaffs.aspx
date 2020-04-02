@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin.Master" AutoEventWireup="true" CodeBehind="AdminStaffs.aspx.cs" Inherits="Coiffeur_Appointment_System.AdminStaffs" %>
+﻿<%@ Page Title="Admin Staffs - C.A.S" Language="C#" MasterPageFile="~/Admin.Master" AutoEventWireup="true" CodeBehind="AdminStaffs.aspx.cs" Inherits="Coiffeur_Appointment_System.AdminStaffs" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
         .auto-style6 {
@@ -57,7 +57,8 @@
             <td class="auto-style14">
                 <br />
                 <br />
-&nbsp;<asp:Label ID="Label14" runat="server" Font-Size="20px" Text="Add staff"></asp:Label>
+&nbsp; <a href="AdminAddStaff.aspx">
+            <asp:Label ID="Label14" runat="server" Font-Size="20px" Text="Add staff"></asp:Label></a>
             </td>
             <td class="auto-style15"></td>
         </tr>

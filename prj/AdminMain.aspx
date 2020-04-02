@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin.Master" AutoEventWireup="true" CodeBehind="AdminMain.aspx.cs" Inherits="Coiffeur_Appointment_System.AdminMain" %>
+﻿<%@ Page Title="Admin Main Page - C.A.S" Language="C#" MasterPageFile="~/Admin.Master" AutoEventWireup="true" CodeBehind="AdminMain.aspx.cs" Inherits="Coiffeur_Appointment_System.AdminMain" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
         .auto-style6 {

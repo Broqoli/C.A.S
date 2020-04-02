@@ -64,7 +64,8 @@
         <tr>
             <td class="auto-style7">&nbsp;</td>
             <td>
-                <asp:Label ID="Label5" runat="server" Font-Size="18px" Font-Underline="False" Text="Create an account."></asp:Label>
+                <a href="SignUpPage.aspx">
+                    <asp:Label ID="Label5" runat="server" Font-Size="18px" Font-Underline="False" Text="Create an account."></asp:Label></a>
             </td>
         </tr>
     </table>

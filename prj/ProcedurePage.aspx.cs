@@ -24,20 +24,25 @@ namespace Coiffeur_Appointment_System
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+
+        }
         /*
 public DataTable baglanti()
 {
-   string connectionString = "server=DESKTOP-P0FDTHF;database=CoiffeurAppointmentSystem;Trusted_Connection=True;";
-   SqlConnection connection = new SqlConnection(connectionString);
-   connection.Open();
-   DataTable dtCourse = new DataTable();
-   if (connection.State == ConnectionState.Open)
-   {
-       SqlDataAdapter adapter = new SqlDataAdapter("SELECT * FROM cas.service", connection);
+string connectionString = "server=DESKTOP-P0FDTHF;database=CoiffeurAppointmentSystem;Trusted_Connection=True;";
+SqlConnection connection = new SqlConnection(connectionString);
+connection.Open();
+DataTable dtCourse = new DataTable();
+if (connection.State == ConnectionState.Open)
+{
+SqlDataAdapter adapter = new SqlDataAdapter("SELECT * FROM cas.service", connection);
 
-       adapter.Fill(dtCourse);
-   }
-   return dtCourse;
+adapter.Fill(dtCourse);
+}
+return dtCourse;
 }
 */
 

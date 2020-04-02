@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin.Master" AutoEventWireup="true" CodeBehind="AdminProcedurePage.aspx.cs" Inherits="Coiffeur_Appointment_System.AdminProcedurePage" %>
+﻿<%@ Page Title="Admin Services - C.A.S" Language="C#" MasterPageFile="~/Admin.Master" AutoEventWireup="true" CodeBehind="AdminProcedure.aspx.cs" Inherits="Coiffeur_Appointment_System.AdminProcedure" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
         .auto-style8 {
@@ -79,7 +79,7 @@
             <td class="auto-style14">&nbsp;</td>
             <td class="auto-style15">&nbsp;</td>
             <td class="auto-style17">
-                <asp:Button ID="Button1" runat="server" Height="40px" Text="CHOOSE" Width="154px" />
+                <asp:Button ID="Button1" runat="server" Height="40px" Text="ADD" Width="137px" />
             </td>
         </tr>
     </table>

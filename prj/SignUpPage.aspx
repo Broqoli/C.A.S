@@ -42,7 +42,7 @@
     <table class="auto-style6">
         <tr>
             <td class="auto-style8">
-                <asp:Label ID="Label1" runat="server" Font-Size="XX-Large" Text="Sign Up"></asp:Label>
+                <asp:Label ID="Label1" runat="server" Font-Size="40px" Text="Sign Up"></asp:Label>
             </td>
             <td class="auto-style12">&nbsp;</td>
             <td>&nbsp;</td>

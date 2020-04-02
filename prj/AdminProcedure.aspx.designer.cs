@@ -11,7 +11,7 @@ namespace Coiffeur_Appointment_System
 {
 
 
-    public partial class AdminProcedurePage
+    public partial class AdminProcedure
     {
 
         /// <summary>

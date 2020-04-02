@@ -38,7 +38,8 @@
     <form id="form1" runat="server">
         
         <div style="width:100%; height:10%">
-            <div class="title">Coiffeur Appointment System</div>
+            <a href="AdminMain.aspx">
+                <div class="title">Coiffeur Appointment System</div></a>
             <div class="nav"><asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
                  <table class="auto-style1">
                      <tr class="auto-style7">
@@ -57,13 +58,16 @@
                                      <asp:Label ID="Label12" runat="server" Text="Menu" Font-Size="X-Large"></asp:Label>
                                  </button>
                                  <div class="dropdown-content">
-                                     <a href="#" >Staffs</a> <a href="#" >Procedures</a> <a href="#" >Sign out</a>
+                                     <a href="AdminStaffs.aspx" >Staffs</a>
+                                     <a href="AdminProcedure.aspx" >Procedures</a>
+                                     <a href="MainPage.aspx" >Sign out</a>
                                  </div>
                              </div>
                              &nbsp; </td>
                      </tr>
                  </table>
             </asp:ContentPlaceHolder></div>
+            </div>
       
 
         <div style="width:1500px; height: 20px"></div>
