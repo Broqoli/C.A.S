@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdminMain.aspx" />
+    <Content Include="AdminStaffs.aspx" />
     <Content Include="AppointmentPage.aspx" />
     <Content Include="CantactPage.aspx" />
     <Content Include="CommentPage.aspx" />
@@ -79,6 +80,7 @@
     <Content Include="SignUpPage.aspx" />
     <Content Include="UserAppointmentPage.aspx" />
     <Content Include="UserLogIn.aspx" />
+    <Content Include="UserSettings.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -95,6 +97,13 @@
     </Compile>
     <Compile Include="AdminMain.aspx.designer.cs">
       <DependentUpon>AdminMain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminStaffs.aspx.cs">
+      <DependentUpon>AdminStaffs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminStaffs.aspx.designer.cs">
+      <DependentUpon>AdminStaffs.aspx</DependentUpon>
     </Compile>
     <Compile Include="AppointmentPage.aspx.cs">
       <DependentUpon>AppointmentPage.aspx</DependentUpon>
@@ -194,6 +203,13 @@
     </Compile>
     <Compile Include="UserNonFilter.Master.designer.cs">
       <DependentUpon>UserNonFilter.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UserSettings.aspx.cs">
+      <DependentUpon>UserSettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserSettings.aspx.designer.cs">
+      <DependentUpon>UserSettings.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
