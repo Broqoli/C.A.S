@@ -50,7 +50,7 @@
         </tr>
         <tr>
             <td>Rating:
-                <asp:Label ID="Label7" runat="server" Text="Label"></asp:Label>
+                <asp:Label ID="Label7" runat="server" Text="LabelXDxdXDxdXDxdXDxdXD"></asp:Label>
             </td>
         </tr>
         <tr><td class="auto-style6">&nbsp;</td></tr>
