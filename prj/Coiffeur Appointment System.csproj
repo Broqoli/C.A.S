@@ -74,6 +74,7 @@
     <Content Include="AppointmentPage.aspx" />
     <Content Include="CantactPage.aspx" />
     <Content Include="CommentPage.aspx" />
+    <Content Include="Images\background.jpg" />
     <Content Include="infoPage.aspx" />
     <Content Include="MainCss.css" />
     <Content Include="MainPage.aspx" />
@@ -242,6 +243,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
