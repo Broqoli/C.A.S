@@ -5,16 +5,11 @@
             font-size: xx-large;
             text-align: center;
             height: 100px;
+            width: 347px;
         }
       
-        .auto-style10 {
-            width: 421px;
-            font-size: xx-large;
-            text-align: center;
-            height: 100px;
-        }
         .auto-style11 {
-            width: 374px;
+            width: 409px;
             font-size: xx-large;
             text-align: center;
             height: 100px;
@@ -32,14 +27,34 @@
         .auto-style17 {
             text-align: center;
         }
+        .auto-style18 {
+            font-family: Garamond;
+            color: rgb(23,12,11);
+            padding-left: 5px;
+            text-align: center;
+            width: 357px;
+        }
+        .auto-style19 {
+            width: 140px;
+            height: 20px;
+        }
+        .auto-style20 {
+            width: 35px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <table class="auto-style1">
         <tr>
-            <td class="auto-style10">PROCEDURE</td>
-            <td class="auto-style11">APPROXIMATE TIME</td>
-            <td class="auto-style8">PRICE</td>
+            <td class="auto-style18">
+                <asp:Label ID="Label14" runat="server" CssClass="filterLabel" Font-Size="36px" Text="PROCEDURE"></asp:Label>
+            </td>
+            <td class="auto-style11">
+                <asp:Label ID="Label15" runat="server" CssClass="filterLabel" Font-Size="36px" Text="APPROXIMATE TIME"></asp:Label>
+            </td>
+            <td class="auto-style8">
+                <asp:Label ID="Label16" runat="server" CssClass="filterLabel" Font-Size="36px" Text="PRICE"></asp:Label>
+            </td>
         </tr>
     </table>
     &nbsp;<asp:DataList ID="DataList1" runat="server" Height="184px" Width="1046px">
@@ -66,20 +81,17 @@
     <table class="auto-style16">
         <tr>
             <td class="auto-style14">Procedure Name:
-                <asp:Label ID="Label13" runat="server" Text="Label"></asp:Label>
-            </td>
-            <td class="auto-style15">Estimated Time:
-                <asp:Label ID="Label4" runat="server" Text="Label"></asp:Label>
-            </td>
-            <td>Total Price:
-                <asp:Label ID="Label5" runat="server" Text="Label"></asp:Label>
-            </td>
+                <input id="Text2" class="auto-style19" type="text" /></td>
+            <td class="auto-style15">Approximate Time:
+                <input id="Text3" class="auto-style20" type="text" /></td>
+            <td>Price:
+                <input id="Text4" class="auto-style20" type="text" /></td>
         </tr>
         <tr>
             <td class="auto-style14">&nbsp;</td>
             <td class="auto-style15">&nbsp;</td>
             <td class="auto-style17">
-                <asp:Button ID="Button1" runat="server" Height="40px" Text="ADD" Width="137px" />
+                <asp:Button ID="Button1" runat="server" Height="40px" Text="ADD" Width="137px" CssClass="filterButton" />
             </td>
         </tr>
     </table>

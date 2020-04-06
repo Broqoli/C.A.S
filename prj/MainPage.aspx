@@ -27,7 +27,7 @@
                 <table class="auto-style1">
                     <tr>
                         <td class="auto-style13">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <asp:Label ID="Label11" runat="server" Font-Size="50px" Height="53px" Text="Coiffeurs" Width="201px"></asp:Label>
+                            <asp:Label ID="Label11" runat="server" Font-Size="50px" Height="53px" Text="Coiffeurs" Width="201px" CssClass="filterLabel"></asp:Label>
                         </td>
                     </tr>
                     <tr>
@@ -40,17 +40,11 @@
                                                 <asp:Image ID="Image1" runat="server" Height="250px" Width="295px" />
                                             </td>
                                             <td class="auto-style9">
-                                                <asp:Label ID="Label12" runat="server" Text='<%# Eval("wp_name") %>'></asp:Label>
+                                                <asp:Label ID="Label12" runat="server" Text="Label"></asp:Label>
                                                 <br />
                                                 <br />
                                                 <asp:Label ID="Label13" runat="server" Text="Procedures: "></asp:Label>
-                                                <asp:DataList ID="DataList2" runat="server" RepeatDirection="Horizontal">
-                                                    <ItemTemplate>
-                                                        <asp:Label ID="Label17" runat="server" Text="Label"></asp:Label>
-                                                        &nbsp;-
-                                                    </ItemTemplate>
-                                                </asp:DataList>
-                                                <br />
+                                                <asp:Label ID="Label14" runat="server" Text="Label"></asp:Label>
                                                 <br />
                                                 <asp:Label ID="Label15" runat="server" Text="Rating: "></asp:Label>
                                                 <asp:Label ID="Label16" runat="server" Text="Label"></asp:Label>

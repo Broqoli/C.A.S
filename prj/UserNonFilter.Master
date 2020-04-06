@@ -26,11 +26,16 @@
         .auto-style4 {
             height: 30px;
             width: 276px;
+            text-align: left;
         }
         .auto-style5 {
             text-align: center;
             height: 32px;
             
+        }
+        .auto-style6 {
+            width: 250px;
+            height: 16px;
         }
     </style>
 </head>
@@ -47,11 +52,10 @@
                             <asp:Label ID="Label1" runat="server" CssClass="navLabelSearch" Text="Search:" Font-Size="X-Large"></asp:Label>
                         </td>
                         <td class="auto-style4">
-                            <asp:TextBox ID="TextBox1" runat="server" Width="250px"></asp:TextBox>
-                        </td>
+                            <input id="Text1" class="auto-style6" placeholder="Search a coiffeur..." type="text" /></td>
                         <td class="auto-style3"><a href="UserLogIn.aspx">
                             <asp:Label ID="Label2" runat="server" Text="Log In" CssClass="navLabel" Font-Size="X-Large"></asp:Label>
-                            </a>&nbsp; 
+                            </a>&nbsp;
                             <asp:Label ID="Label11" runat="server" CssClass="navLabelSearch" Font-Size="Larger" Text="|"></asp:Label>
                             &nbsp; <a href="SignUpPage.aspx">
                             <asp:Label ID="Label3" runat="server" Text="Sign Up" CssClass="navLabel" Font-Size="X-Large"></asp:Label>
