@@ -21,6 +21,17 @@
         .auto-style13 {
             height: 89px;
         }
+        .auto-style14 {
+            height: 253px;
+            width: 271px;
+        }
+        .auto-style15 {
+            width: 271px;
+        }
+        .auto-style16 {
+            width: 663px;
+            height: 16px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" runat="server" contentplaceholderid="ContentPlaceHolder1">
@@ -34,22 +45,18 @@
                         <td>
                             <asp:DataList ID="DataList1" runat="server">
                                 <ItemTemplate>
-                                    <table class="auto-style7">
+                                    <table class="auto-style16">
                                         <tr>
                                             <td class="auto-style10">
                                                 <asp:Image ID="Image1" runat="server" Height="250px" Width="295px" />
                                             </td>
-                                            <td class="auto-style9">
-                                                <asp:Label ID="Label12" runat="server" Text='<%# Eval("wp_name") %>'></asp:Label>
+                                            <td class="auto-style14">
+                                                
+                                               <a href="infoPage.aspx?id=<%#Eval("wp_id") %>" > <asp:Label ID="Label12" runat="server" Text='<%# Eval("wp_name") %>'></asp:Label> </a>
                                                 <br />
                                                 <br />
                                                 <asp:Label ID="Label13" runat="server" Text="Procedures: "></asp:Label>
-                                                <asp:DataList ID="DataList2" runat="server" RepeatDirection="Horizontal">
-                                                    <ItemTemplate>
-                                                        <asp:Label ID="Label17" runat="server" Text="Label"></asp:Label>
-                                                        &nbsp;-
-                                                    </ItemTemplate>
-                                                </asp:DataList>
+                                               <asp:Label ID="Label17" runat="server" Text='<%# Eval("wp_id") %>'></asp:Label>
                                                 <br />
                                                 <br />
                                                 <asp:Label ID="Label15" runat="server" Text="Rating: "></asp:Label>
@@ -59,7 +66,7 @@
                                         </tr>
                                         <tr>
                                             <td class="auto-style11">&nbsp;</td>
-                                            <td>&nbsp;</td>
+                                            <td class="auto-style15">&nbsp;</td>
                                             <td class="auto-style12">
                                                 <asp:Button ID="Button2" runat="server" Height="43px" Text="Make Appointment" Width="135px" />
                                             </td>
