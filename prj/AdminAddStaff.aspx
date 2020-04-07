@@ -17,6 +17,10 @@
         .auto-style15 {
             height: 158px;
         }
+        .auto-style16 {
+            width: 247px;
+            height: 96px;
+        }
         .auto-style17 {
             height: 54px;
         }
@@ -35,18 +39,8 @@
         .auto-style22 {
             height: 108px;
         }
-        .auto-style25 {
-            background-color: #e3d6cf;
-            border-radius: 10px;
-            border: 2px solid #f0f3f5;
-            display: inline-block;
-            cursor: pointer;
-            color: #08060d;
-            font-family: Garamond;
-            font-size: 18px;
-            text-decoration: none;
-            width: 102px;
-            height: 34px;
+        .auto-style23 {
+            margin-top: 14px;
         }
     </style>
 </asp:Content>
@@ -54,36 +48,36 @@
     <table class="auto-style6">
         <tr>
             <td class="auto-style13">
-                <asp:Label ID="Label13" runat="server" Font-Size="60px" Text="Add Staff" CssClass="filterLabel"></asp:Label>
+                <asp:Label ID="Label13" runat="server" Font-Size="60px" Text="Add Staff"></asp:Label>
             </td>
             <td class="auto-style14">
                 <br />
                 <br />
 &nbsp; <a href="AdminStaffs.aspx">
-            <asp:Label ID="Label14" runat="server" Font-Size="20px" Text="Staffs" CssClass="filterLabel"></asp:Label></a>
+            <asp:Label ID="Label14" runat="server" Font-Size="20px" Text="Staffs"></asp:Label></a>
             </td>
             <td class="auto-style15"></td>
         </tr>
         <tr>
             <td class="auto-style18">
-                <asp:Label ID="Label1" runat="server" Text="Staff ID: " CssClass="filterLabel" Font-Size="X-Large"></asp:Label>
+                <asp:Label ID="Label1" runat="server" Text="Staff ID: "></asp:Label>
             </td>
             <td class="auto-style17">
-                &nbsp;<asp:TextBox ID="TextBox3" runat="server" Height="22px" Width="128px"></asp:TextBox>
+                <input id="Text1" type="text" maxlength:15 required="required" value:"int" maxlength="15"/>
             </td>
         </tr>
         <tr>
             <td class="auto-style22">
-                <p class="auto-style21"><asp:Label ID="Label2" runat="server" Text="About Staff: " CssClass="filterLabel" Font-Size="X-Large"></asp:Label></p>
+                <p class="auto-style21"><asp:Label ID="Label2" runat="server" Text="About Staff: "></asp:Label></p>
             </td>
             <td class="auto-style20">
-                &nbsp;<asp:TextBox ID="TextBox4" runat="server" Height="95px" Width="220px"></asp:TextBox>
+                <input id="Text2" type="text" maxlength:320 required="required" value:"char" maxlength="320" class="auto-style16"/>
             </td>
         </tr>
         <tr>
             <td></td>
             <td>
-                <input id="Submit1" type="submit" value="Add Staff" class="auto-style25" /><br />
+                <input id="Submit1" type="submit" value="Add Staff" class="auto-style23" /><br />
                 <br />
                 &nbsp;</td>
         </tr>

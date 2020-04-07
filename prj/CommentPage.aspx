@@ -11,10 +11,10 @@
             text-align: left;
         }
         .auto-style8 {
-            height: 333px;
+            height: 73px;
         }
         .auto-style9 {
-            height: 333px;
+            height: 73px;
             width: 279px;
             text-align: right;
         }
@@ -24,7 +24,7 @@
             text-align: center;
         }
         .auto-style11 {
-            height: 333px;
+            height: 73px;
             width: 725px;
             text-align: center;
         }

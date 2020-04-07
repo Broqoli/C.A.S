@@ -27,7 +27,12 @@
             height: 30px;
             width: 276px;
         }
-        </style>
+        .auto-style5 {
+            text-align: center;
+            height: 32px;
+            
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">

@@ -52,25 +52,25 @@
     <table class="auto-style6">
         <tr>
             <td class="auto-style13">
-                <asp:Label ID="Label13" runat="server" Font-Size="60px" Text="Staffs" CssClass="filterLabel"></asp:Label>
+                <asp:Label ID="Label13" runat="server" Font-Size="60px" Text="Staffs"></asp:Label>
             </td>
             <td class="auto-style14">
                 <br />
                 <br />
 &nbsp; <a href="AdminAddStaff.aspx">
-            <asp:Label ID="Label14" runat="server" Font-Size="20px" Text="Add staff" CssClass="filterLabel"></asp:Label></a>
+            <asp:Label ID="Label14" runat="server" Font-Size="20px" Text="Add staff"></asp:Label></a>
             </td>
             <td class="auto-style15"></td>
         </tr>
         <tr>
             <td class="auto-style9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:Label ID="Label15" runat="server" Font-Size="20px" Text="Free" CssClass="filterLabel"></asp:Label>
+                <asp:Label ID="Label15" runat="server" Font-Size="20px" Text="Free"></asp:Label>
             </td>
             <td class="auto-style12">
-                <asp:Label ID="Label16" runat="server" Font-Size="20px" Text="Working right now" CssClass="filterLabel"></asp:Label>
+                <asp:Label ID="Label16" runat="server" Font-Size="20px" Text="Working right now"></asp:Label>
             </td>
             <td class="auto-style10">
-                <asp:Label ID="Label17" runat="server" Font-Size="20px" Text="Off-day" CssClass="filterLabel"></asp:Label>
+                <asp:Label ID="Label17" runat="server" Font-Size="20px" Text="Off-day"></asp:Label>
             </td>
         </tr>
     </table>
