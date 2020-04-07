@@ -14,14 +14,6 @@
             text-align: right;
             height: 69px;
         }
-        .auto-style10 {
-            width: 250px;
-            height: 22px;
-        }
-        .auto-style11 {
-            width: 21px;
-            height: 18px;
-        }
         .auto-style12 {
             width: 377px;
             text-align: right;
@@ -64,19 +56,21 @@
                 <asp:Label ID="Label2" runat="server" Text="E-mail: " Font-Size="20px" CssClass="filterLabel"></asp:Label>
             </td>
             <td class="auto-style13">
-                <input id="Text1" class="auto-style10" type="email" /></td>
+                <asp:TextBox ID="TextBox1" runat="server" Height="22px" Width="250px"></asp:TextBox>
+            </td>
         </tr>
         <tr>
             <td class="auto-style14">
                 <asp:Label ID="Label3" runat="server" Text="Password: " Font-Size="20px" CssClass="filterLabel"></asp:Label>
             </td>
             <td class="auto-style15">
-                <input id="Password1" class="auto-style10" type="password" /></td>
+                <asp:TextBox ID="TextBox2" runat="server" Height="22px" Width="250px"></asp:TextBox>
+            </td>
         </tr>
         <tr>
             <td class="auto-style8"></td>
             <td class="auto-style18">
-                <input id="Checkbox1" class="auto-style11" type="checkbox" />
+                &nbsp;<asp:CheckBox ID="CheckBox1" runat="server" />
                 <asp:Label ID="Label4" runat="server" Font-Size="20px" Text=" Remember me."></asp:Label>
             </td>
         </tr>
