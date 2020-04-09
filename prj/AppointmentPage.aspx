@@ -1,58 +1,72 @@
 ﻿<%@ Page Title="Appointment C.A.S" Language="C#" MasterPageFile="~/UserNonFilter.Master" AutoEventWireup="true" CodeBehind="AppointmentPage.aspx.cs" Inherits="Coiffeur_Appointment_System.AppointmentPage" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
         .auto-style6 {
             height: 26px;
         }
+
         .auto-style7 {
             height: 26px;
             text-align: right;
         }
+
         .auto-style8 {
             margin-left: 0px;
         }
+
         .auto-style9 {
             height: 26px;
             width: 385px;
         }
+
         .auto-style10 {
             text-align: right;
             width: 60px;
         }
+
         .auto-style11 {
             width: 193px;
         }
+
         .auto-style14 {
             width: 60px;
         }
+
         .auto-style15 {
             text-align: right;
             width: 60px;
             height: 14px;
         }
+
         .auto-style16 {
             height: 14px;
         }
+
         .auto-style17 {
             width: 374px;
         }
+
         .auto-style18 {
             height: 14px;
             width: 374px;
         }
+
         .auto-style19 {
             text-align: right;
         }
+
         .auto-style20 {
             width: 100%;
             height: 298px;
         }
+
         .auto-style21 {
             text-align: left;
         }
     </style>
 </asp:Content>
-<asp:Content ID="Content2" runat="server" contentplaceholderid="ContentPlaceHolder1">
+<asp:Content ID="Content2" runat="server" ContentPlaceHolderID="ContentPlaceHolder1">
     <table class="auto-style1">
         <tr>
             <td class="auto-style9"></td>
@@ -82,7 +96,7 @@
                     </td>
                     <td class="auto-style15">Name:</td>
                     <td class="auto-style18">
-                        <asp:Label ID="Label4" runat="server" Text="Label"></asp:Label>
+                        <asp:Label ID="Label4" runat="server" Text='<%# Eval("name") %>'></asp:Label>
                     </td>
                     <td class="auto-style16"></td>
                 </tr>
@@ -92,7 +106,7 @@
                         <table class="auto-style1">
                             <tr>
                                 <td>
-                                    <asp:Label ID="Label7" runat="server" Text="Label"></asp:Label>
+                                    <asp:Label ID="Label7" runat="server" Text='<%# Eval("service_name") %>'></asp:Label>
                                 </td>
                                 <td class="auto-style19">Available Hours:</td>
                             </tr>
@@ -108,11 +122,27 @@
                 <tr>
                     <td class="auto-style10">Info:</td>
                     <td class="auto-style17">
-                        <asp:Label ID="Label6" runat="server" Text="Label"></asp:Label>
+                        <asp:Label ID="Label6" runat="server" Text='<%# Eval("description") %>'></asp:Label>
                     </td>
                 </tr>
             </table>
         </ItemTemplate>
     </asp:DataList>
 </asp:Content>
+
+<asp:Content ID="Content3" runat="server" ContentPlaceHolderID="ContentPlaceHolder2">
+    <asp:DataList ID="DataList2" runat="server" Width="1075px">
+        <ItemTemplate>
+            <table class="auto-style1">
+                <tr>
+                    <td class="auto-style5"><a class="info1" href="infoPage.aspx?id=1">INFORMATION</a></td>
+                    <td class="auto-style5"><a class="info2" href="ProcedurePage.aspx?id=1">PROCEDURES</a></td>
+                    <td class="auto-style5"><a class="info3" href="CommentPage.aspx?id=1">COMMENTS</a></td>
+                    <td class="auto-style5"><a class="info4" href="CantactPage.aspx?id=1">CONTACT</a></td>
+                </tr>
+            </table>
+        </ItemTemplate>
+    </asp:DataList>
+</asp:Content>
+
 
