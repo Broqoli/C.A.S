@@ -52,18 +52,18 @@
                                 <td class="auto-style8">
                                     <asp:Image ID="Image1" runat="server" Height="296px" Width="348px" />
                                 </td>
-                                <td class="auto-style11">&nbsp;&nbsp;<asp:Label ID="Label4" runat="server" Font-Size="XX-Large" Text='<%# Eval("wp_name") %>'></asp:Label>
+                                <td class="auto-style11">&nbsp;&nbsp;<asp:Label ID="Label4" runat="server" Font-Size="XX-Large" Text="Label"></asp:Label>
                                     <br />
                                     <br />
                                     <br />
                                     &nbsp;<asp:Label ID="Label5" runat="server" Text="About:"></asp:Label>
-                                    &nbsp;<asp:Label ID="Label6" runat="server" Text='<%# Eval("about") %>'></asp:Label>
+                                    &nbsp;<asp:Label ID="Label6" runat="server" Text="Label"></asp:Label>
                                 </td>
                                 <td class="auto-style7"></td>
                             </tr>
                             <tr>
                                 <td class="auto-style14">&nbsp;&nbsp;<asp:Label ID="Label7" runat="server" Text="Rating: "></asp:Label>
-                                    <asp:Label ID="Label8" runat="server" Text='<%# Eval("wp_id") %>'></asp:Label>
+                                    <asp:Label ID="Label8" runat="server" Text="Label"></asp:Label>
                                 </td>
                                 <td class="auto-style13">&nbsp;</td>
                                 <td>&nbsp;</td>
@@ -72,7 +72,7 @@
                                 <td class="auto-style14">&nbsp;</td>
                                 <td class="auto-style13">&nbsp;</td>
                                 <td class="auto-style10">
-                                <asp:Button ID="Button1" runat="server" Height="37px" Text="Make Appointment" Width="115px" OnClick="Button1_Click" />
+                                    <asp:Button ID="Button1" runat="server" Height="37px" Text="Make Appointment" Width="115px" />
                                 </td>
                             </tr>
                             <tr>
@@ -94,20 +94,4 @@
         </tr>
     </table>
 </asp:Content>
-
-<asp:Content ID="Content3" runat="server" contentplaceholderid="ContentPlaceHolder2">
-    <asp:DataList ID="DataList2" runat="server" CssClass="auto-style15" Width="949px">
-                    <ItemTemplate>
-    <table class="auto-style1">
-        <tr>
-            <td class="auto-style5"><a class="info1" href="infoPage.aspx?id=<%#Eval("wp_id") %>" >INFORMATION</a></td>
-            <td class="auto-style5"><a class="info2" href="ProcedurePage.aspx?id=<%#Eval("wp_id") %>" >PROCEDURES</a></td>
-            <td class="auto-style5"><a class="info3" href="CommentPage.aspx?id=<%#Eval("wp_id") %>">COMMENTS</a></td>
-            <td class="auto-style5"><a class="info4" href="CantactPage.aspx?id=<%#Eval("wp_id") %>">CONTACT</a></td>
-        </tr>
-    </table>
-     </ItemTemplate>
-                </asp:DataList>
-</asp:Content>
-
 

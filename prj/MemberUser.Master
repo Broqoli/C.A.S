@@ -21,11 +21,11 @@
         }
         .auto-style3 {
             height: 30px;
-            text-align: right;
+            text-align: center;
         }
         .auto-style4 {
             height: 30px;
-            width: 276px;
+            width: 398px;
         }
         .auto-style5 {
             width: 100%;
@@ -48,11 +48,10 @@
             <div class="nav"><asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
                 <table class="auto-style1">
                     <tr class="auto-style7">
-                        <td class="auto-style2">
-                            <asp:Label ID="Label1" runat="server" CssClass="navLabelSearch" Text="Search:" Font-Size="X-Large"></asp:Label>
-                        </td>
+                        <td class="auto-style2">&nbsp;</td>
                         <td class="auto-style4">
-                            <asp:TextBox ID="TextBox1" runat="server" Width="250px"></asp:TextBox>
+                            <asp:TextBox ID="TextBox4" runat="server" Width="250px"></asp:TextBox>
+&nbsp;<asp:Button ID="Button3" runat="server" CssClass="filterButton" Height="28px" Text="Search" Width="59px" />
                         </td>
                         <td class="auto-style3">
                             <asp:Label ID="Label2" runat="server" Text="[User Name]" CssClass="navLabel" Font-Size="X-Large"></asp:Label>

@@ -62,10 +62,10 @@
                         <asp:Label ID="Label1" runat="server" Text='<%# Eval("service_name") %>'></asp:Label>
                     </td>
                     <td class="auto-style12">
-                        <asp:Label ID="Label2" runat="server" Text='<%# Eval("estimate_time") %>'></asp:Label>
+                        <asp:Label ID="Label2" runat="server" Text='<%# Eval("service_id") %>'></asp:Label>
                     </td>
                     <td>
-                        <asp:Label ID="Label3" runat="server" Text='<%# Eval("price") %>'></asp:Label>
+                        <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
                     </td>
                 </tr>
             </table>
@@ -92,18 +92,3 @@
     </table>
     <br />
     </asp:Content>
-<asp:Content ID="Content5" runat="server" contentplaceholderid="ContentPlaceHolder2">
-    <asp:DataList ID="DataList2" runat="server" CssClass="auto-style15" Width="1334px">
-                    <ItemTemplate>
-    <table class="auto-style1">
-        <tr>
-            <td class="auto-style5"><a class="info1" href="infoPage.aspx?id=<%#Eval("wp_id") %>" >INFORMATION</a></td>
-            <td class="auto-style5"><a class="info2" href="ProcedurePage.aspx?id=<%#Eval("wp_id") %>" >PROCEDURES</a></td>
-            <td class="auto-style5"><a class="info3" href="CommentPage.aspx?id=<%#Eval("wp_id") %>">COMMENTS</a></td>
-            <td class="auto-style5"><a class="info4" href="CantactPage.aspx?id=<%#Eval("wp_id") %>">CONTACT</a></td>
-        </tr>
-    </table>
-     </ItemTemplate>
-                </asp:DataList>
-</asp:Content>
-

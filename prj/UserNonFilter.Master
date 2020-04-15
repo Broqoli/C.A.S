@@ -26,13 +26,14 @@
         .auto-style4 {
             height: 30px;
             width: 276px;
+            text-align: left;
         }
         .auto-style5 {
             text-align: center;
             height: 32px;
             
         }
-    </style>
+        </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -51,7 +52,7 @@
                         </td>
                         <td class="auto-style3"><a href="UserLogIn.aspx">
                             <asp:Label ID="Label2" runat="server" Text="Log In" CssClass="navLabel" Font-Size="X-Large"></asp:Label>
-                            </a>&nbsp; 
+                            </a>&nbsp;
                             <asp:Label ID="Label11" runat="server" CssClass="navLabelSearch" Font-Size="Larger" Text="|"></asp:Label>
                             &nbsp; <a href="SignUpPage.aspx">
                             <asp:Label ID="Label3" runat="server" Text="Sign Up" CssClass="navLabel" Font-Size="X-Large"></asp:Label>
@@ -71,7 +72,7 @@
 
                     <table class="auto-style1">
                         <tr>
-                            <td class="auto-style5"><a class="info1" href="infoPage.aspx" >INFORMATION</a></td>
+                            <td class="auto-style5"><a class="info1" href="infoPage.aspx">INFORMATION</a></td>
                             <td class="auto-style5"><a class="info2" href="ProcedurePage.aspx">PROCEDURES</a></td>
                             <td class="auto-style5"><a class="info3" href="CommentPage.aspx">COMMENTS</a></td>
                             <td class="auto-style5"><a class="info4" href="CantactPage.aspx">CONTACT</a></td>
