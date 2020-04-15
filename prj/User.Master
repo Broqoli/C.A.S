@@ -20,7 +20,7 @@
         }
         .auto-style4 {
             height: 30px;
-            width: 359px;
+            width: 451px;
             text-align: center;
         }
         .auto-style5 {
@@ -32,7 +32,7 @@
         }
         .auto-style7 {
             height: 30px;
-            width: 361px;
+            width: 107px;
             text-align: right;
         }
         </style>
