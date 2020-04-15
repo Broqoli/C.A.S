@@ -16,12 +16,11 @@
         }
         .auto-style3 {
             height: 30px;
-            text-align: center;
-        }
+            }
         .auto-style4 {
             height: 30px;
-            width: 451px;
-            text-align: center;
+            width: 479px;
+            text-align: right;
         }
         .auto-style5 {
             width: 100%;
